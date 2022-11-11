@@ -39,3 +39,24 @@ hr{
     object-fit: cover;
     margin: 3rem;
 }
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+   
+   
+}
+
+.contacto__btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(121, 1, 121);
+    font-size: 25px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgba(221, 1, 118, 0.023);
+    background-color:rgba(221, 1, 118, 0.23) ;
+    
+}
