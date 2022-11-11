@@ -1,0 +1,41 @@
+hr{
+    margin: 5rem;
+    color: deeppink;
+    
+}
+
+.section__img{
+    height: 35rem;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    margin: 8rem;
+    text-align: center;
+    
+}
+
+
+.tarjetas__a{
+    
+    background-color: rgba(255, 128, 191, 0.388);
+}
+
+.tarjetas__ul{
+    text-align: start;
+    
+}
+
+.tarjetas__titulo{
+    font-family:cursive; 
+    font-weight: bold;
+    color: rgba(255, 68, 0, 0.557)
+}
+.tarjetas__img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    margin: 3rem;
+}
