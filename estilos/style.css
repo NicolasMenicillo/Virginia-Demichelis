@@ -72,50 +72,6 @@
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35); } }
 
 /* interacciones botones wsp y insta */
-.vibrate-1 {
-  -webkit-animation: vibrate-1 1s linear infinite both;
-  animation: vibrate-1 1s linear infinite both; }
-
-@-webkit-keyframes vibrate-1 {
-  0% {
-    -webkit-transform: translate(0);
-    transform: translate(0); }
-  20% {
-    -webkit-transform: translate(-2px, 2px);
-    transform: translate(-2px, 2px); }
-  40% {
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px); }
-  60% {
-    -webkit-transform: translate(2px, 2px);
-    transform: translate(2px, 2px); }
-  80% {
-    -webkit-transform: translate(2px, -2px);
-    transform: translate(2px, -2px); }
-  100% {
-    -webkit-transform: translate(0);
-    transform: translate(0); } }
-
-@keyframes vibrate-1 {
-  0% {
-    -webkit-transform: translate(0);
-    transform: translate(0); }
-  20% {
-    -webkit-transform: translate(-2px, 2px);
-    transform: translate(-2px, 2px); }
-  40% {
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px); }
-  60% {
-    -webkit-transform: translate(2px, 2px);
-    transform: translate(2px, 2px); }
-  80% {
-    -webkit-transform: translate(2px, -2px);
-    transform: translate(2px, -2px); }
-  100% {
-    -webkit-transform: translate(0);
-    transform: translate(0); } }
-
 .contacto__btn:hover {
   color: orangered; }
 
@@ -158,6 +114,23 @@
   gap: 2rem;
   margin: 0rem;
   list-style-type: none; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 7rem;
+  background: #fd2dfa;
+  background: linear-gradient(0deg, rgba(253, 45, 250, 0.321412) 82%, #c32288 97%); }
+
+.footer__insta {
+  width: 3rem; }
+
+.footer__face {
+  width: 3rem; }
+
+.footer__wsp {
+  width: 3rem; }
 
 hr {
   margin: 5rem;

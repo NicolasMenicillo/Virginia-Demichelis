@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7rem;
+    background: rgb(253,45,250);
+    background: linear-gradient(0deg, rgba(253,45,250,0.3214121586134454) 82%, rgba(195,34,136,1) 97%);
+}
+
+.footer__insta{
+    width: 3rem;
+}
+
+.footer__face{
+    width: 3rem;
+}
+
+.footer__wsp{
+    width: 3rem;
+}
