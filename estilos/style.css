@@ -132,6 +132,19 @@
 .footer__wsp {
   width: 3rem; }
 
+.mapa {
+  display: flex;
+  justify-content: space-evenly; }
+
+.mapa__titulo {
+  color: #790179;
+  font-weight: bolder;
+  height: 3rem;
+  border: solid;
+  border-radius: 15px;
+  border-color: rgba(221, 1, 118, 0.023);
+  background-color: rgba(221, 1, 118, 0.23); }
+
 hr {
   margin: 5rem;
   color: deeppink; }

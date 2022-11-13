@@ -1,0 +1,15 @@
+.mapa{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mapa__titulo{
+    color: rgb(121, 1, 121);
+    font-weight: bolder;
+    height: 3rem;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgba(221, 1, 118, 0.023);
+    background-color:rgba(221, 1, 118, 0.23) ;
+    
+}
