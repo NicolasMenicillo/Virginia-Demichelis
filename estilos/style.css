@@ -192,23 +192,23 @@ hr {
   border-color: rgba(221, 1, 118, 0.023);
   background-color: rgba(221, 1, 118, 0.23); }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .img {
     height: 31rem; } }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .img {
     height: 20rem; } }
 
-@media (max-width: 469px) {
+@media (max-width: 468px) {
   .img {
     height: 14rem; } }
 
-@media (max-width: 321px) {
+@media (max-width: 456px) {
   .img {
-    height: 155px; } }
+    height: 13rem; } }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .tarjetas {
     grid-template-columns: 16rem 16rem 16rem;
     gap: 5 rem;
@@ -218,7 +218,7 @@ hr {
     height: 13rem;
     margin: 1rem; } }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .tarjetas {
     grid-template-columns: 13rem 13rem 13rem;
     gap: 3rem; }
@@ -231,7 +231,7 @@ hr {
   .contacto__btn {
     font-size: 19px; } }
 
-@media (max-width: 469px) {
+@media (max-width: 468px) {
   .tarjetas {
     display: flex;
     flex-direction: column;
@@ -244,13 +244,15 @@ hr {
   .contacto__btn {
     font-size: 19px; } }
 
-@media (max-width: 321px) {
+@media (max-width: 456px) {
   .tarjetas {
-    margin: 18px;
+    margin: 45px;
     gap: 5rem; }
   .contacto {
     width: 19rem;
-    margin-left: 7px; } }
+    margin-left: 7px; }
+  .contacto {
+    margin-left: 70px; } }
 
 @media (max-width: 1222px) {
   .header__titulo {
@@ -264,18 +266,18 @@ hr {
   .header__slogan {
     font-size: 20px; } }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .header__titulo {
     font-size: 28px; } }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .header {
     flex-direction: column; }
   .header__ul {
     gap: 30rem;
     list-style-type: disc; } }
 
-@media (max-width: 469px) {
+@media (max-width: 468px) {
   .header__ul {
     gap: 16rem; }
   .header__titulo {
@@ -283,7 +285,7 @@ hr {
   .header__slogan {
     margin: 10px; } }
 
-@media (max-width: 321px) {
+@media (max-width: 456px) {
   .header__ul {
     gap: 7rem;
     margin: 4px; }
