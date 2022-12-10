@@ -18,7 +18,7 @@
 
 @media (max-width: 456px){
     .img{
-        height: 13rem;
+        height: 12rem;
     }
 }
 
@@ -83,5 +83,14 @@
     }
     .contacto{
         margin-left: 70px;
+    }
+}
+
+@media (max-width: 320px){
+    .img{
+        height: 9rem;
+    }
+    .contacto{
+        margin-left: 8px;
     }
 }
