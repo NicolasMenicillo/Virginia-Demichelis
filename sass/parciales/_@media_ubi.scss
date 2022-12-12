@@ -11,6 +11,18 @@
 
 @media (max-width: 468px){
    .mapa__titulo{
-      margin-left: 7rem;
+      width: 13rem;
+      margin-left: 8rem;
+      height: 37px;
+   }
+   
+}
+
+@media (max-width: 320px){
+   .mapa__titulo{
+      margin-left: 5rem;
+      width: 10rem;
+      height: 29px;
+      font-size: 17px;
    }
 }
