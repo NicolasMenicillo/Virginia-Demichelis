@@ -240,7 +240,7 @@ hr {
     gap: 4rem;
     flex-direction: column-reverse;
     width: 20rem;
-    margin-left: 4.5rem; }
+    margin: auto; }
   .contacto__btn {
     font-size: 19px; } }
 
@@ -250,15 +250,15 @@ hr {
     gap: 5rem; }
   .contacto {
     width: 19rem;
-    margin-left: 7px; }
+    margin: auto; }
   .contacto {
-    margin-left: 70px; } }
+    margin: auto; } }
 
 @media (max-width: 320px) {
   .img {
     height: 9rem; }
   .contacto {
-    margin-left: 62px;
+    margin: auto;
     width: 12rem; }
   .contacto__btn {
     font-size: 12px; } }
@@ -309,17 +309,24 @@ hr {
     text-align: center; }
   .mapa__titulo {
     width: 15rem;
-    margin-left: 16rem; } }
+    margin: auto; } }
 
 @media (max-width: 468px) {
   .mapa__titulo {
     width: 13rem;
-    margin-left: 8rem;
+    margin: auto;
     height: 37px; } }
+
+@media (max-width: 375px) {
+  .contacto {
+    width: 15rem;
+    margin: auto; }
+  .contacto__btn {
+    font-size: 15px; } }
 
 @media (max-width: 320px) {
   .mapa__titulo {
-    margin-left: 5rem;
+    margin: auto;
     width: 10rem;
     height: 29px;
     font-size: 17px; } }

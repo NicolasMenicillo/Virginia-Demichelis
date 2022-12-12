@@ -5,22 +5,34 @@
      }
      .mapa__titulo{
         width: 15rem;
-        margin-left: 16rem;    
+        margin: auto;    
      }
 }
 
 @media (max-width: 468px){
    .mapa__titulo{
       width: 13rem;
-      margin-left: 8rem;
+      margin: auto;
       height: 37px;
    }
    
 }
 
+@media (max-width: 375px){
+   .contacto{
+      width: 15rem;
+      margin: auto;
+   }
+   .contacto__btn{
+      font-size: 15px;
+   }
+}
+
+
+
 @media (max-width: 320px){
    .mapa__titulo{
-      margin-left: 5rem;
+      margin: auto;
       width: 10rem;
       height: 29px;
       font-size: 17px;
