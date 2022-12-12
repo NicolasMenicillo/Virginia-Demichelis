@@ -1,0 +1,16 @@
+@media (max-width: 768px){
+     .mapa{
+        flex-direction: column;
+        text-align: center;
+     }
+     .mapa__titulo{
+        width: 15rem;
+        margin-left: 16rem;    
+     }
+}
+
+@media (max-width: 468px){
+   .mapa__titulo{
+      margin-left: 7rem;
+   }
+}
