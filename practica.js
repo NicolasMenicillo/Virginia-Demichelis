@@ -1,31 +1,7 @@
 
-/*const info = alert("Tambien Vendemos Productos Natura!!")
+const info = alert("Tambien Vendemos Productos Natura!!")
 
 
-let opciones = parseInt(prompt("1- Ver productos\n2- Volver al sitio web"))
-
-
-function menu (a , b){
-
-    switch (opciones){
-        case 1 :
-            alert("Bienvenido a Productos Natura")
-            prompt("Escriba su Email Para recibir los catalogos")
-            break
-    
-        case 2: 
-            alert("Disfrute Del Sitio")    
-            break
-        
-        default:
-               alert("Opcion invalida!")
-    }
-    
-}
-
-menu(opciones)*/
-
-///////////////////////////////////////
 
 const productosNatura = [
     { producto: "Rolon", marca: "Natura Kaiak", tamaño: "100ml", fragancia: "Masculino", precio: 3120 },
@@ -38,7 +14,7 @@ const productosNatura = [
 
 ]
 
-let carrito = []
+const carrito = []
 
 let propuesta = prompt("¿Desea comprar Algun Producto? (si) o (no)")
 
@@ -90,24 +66,24 @@ while (propuesta != "no") {
         let unidades = parseInt(prompt("Cuantas unidades quiere llevar"))
 
 
-      carrito.push({productosNat, unidades, precio}) 
-      console.log(carrito) 
-    } else{
+        carrito.push({ productosNat, unidades, precio })
+        console.log(carrito)
+    } else {
         alert("No tenemos ese producto")
     }
 
-    propuesta = prompt("Desea seguir comprando?")
-    
-    while(propuesta === "no"){
+    propuesta = prompt("Desea seguir comprando? si / no")
+
+    while (propuesta === "no") {
         alert("Gracias por su compra. Nos vemos!")
-        carrito.forEach ((carritoFinal) =>{
+        carrito.forEach((carritoFinal) => {
             console.log(`productosNat: ${carritoFinal.productosNat}, unidades${carritoFinal.unidades}, total a pagar por producto ${carritoFinal.unidades * carritoFinal.precio}`)
         })
         break;
     }
 
 }
-const total = carrito.reduce ((acc, el) => acc + el.precio * el.unidades, 0)
+const total = carrito.reduce((acc, el) => acc + el.precio * el.unidades, 0)
 console.log(`El total a pagar por su compra es:  ${total}`)
 
 
