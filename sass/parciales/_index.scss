@@ -1,56 +1,58 @@
-hr{
+hr {
     margin: 5rem;
     color: deeppink;
-    
+
 }
 
 
-.img{
-    height: 40rem; 
+.img {
+    height: 40rem;
 }
 
-.tarjetas{
+.tarjetas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem;
     margin: 8rem;
     text-align: center;
-    
+
 }
 
 
-.tarjetas__a{
-    
+.tarjetas__a {
+
     background-color: rgba(255, 128, 191, 0.388);
 }
 
-.tarjetas__ul{
-    text-align: start;
-    
+.tarjetas__ul {
+    text-align: center;
+    padding: 1rem;
+
 }
 
-.tarjetas__titulo{
-    font-family:cursive; 
+.tarjetas__titulo {
+    font-family: cursive;
     font-weight: bold;
     color: rgba(255, 68, 0, 0.557)
 }
-.tarjetas__img{
+
+.tarjetas__img {
     width: 15rem;
     height: 15rem;
     object-fit: cover;
     margin: 3rem;
 }
 
-.contacto{
+.contacto {
     display: flex;
     justify-content: center;
     gap: 10rem;
-   
-    
-   
+
+
+
 }
 
-.contacto__btn{
+.contacto__btn {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: rgb(121, 1, 121);
@@ -59,6 +61,6 @@ hr{
     border: solid;
     border-radius: 15px;
     border-color: rgba(221, 1, 118, 0.023);
-    background-color:rgba(221, 1, 118, 0.23) ;
-    
+    background-color: rgba(221, 1, 118, 0.23);
+
 }
