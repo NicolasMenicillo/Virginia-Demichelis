@@ -79,6 +79,7 @@ function actualizarBotonesEliminar() {
 }
 
 function eliminarDelCarrito(e) {
+
     const idBoton = e.currentTarget.id;
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton)
 
@@ -92,10 +93,29 @@ function eliminarDelCarrito(e) {
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
 
-    productosEnCarrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-    cargarProductosCarrito();
+    Swal.fire({
+        title: "¡Esta por vaciar el carrito!",
+        text: "¿Desea vaciar el carrito?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Sí, vaciar",
+        cancelButtonText: "No, cancelar"
+      }).then((result) => {
+        if (result.value) {
+          
+            productosEnCarrito.length = 0;
+            localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+            cargarProductosCarrito();
 
+          Swal.fire("Vaciado!", "El carrito ha sido vaciado.", "success");
+        } else {
+          
+        }
+      });
+
+
+
+    
 }
 
 function actualizarTotal() {
