@@ -1,0 +1,160 @@
+
+[
+    {
+        "id": "ekos",
+        "titulo": "Ekos Trescor",
+        "imagen": "../img/img perfumes/ekos trescor.jpg",
+        "categoria": {
+            "nombre": "Perfumes",
+            "id": "perfumes"
+        },
+        "precio": 5666
+    },
+
+    {
+        "id": "essne",
+        "titulo": "Essnecial",
+        "imagen": "../img/img perfumes/essnecial.jpg",
+        "categoria": {
+            "nombre": "Perfumes",
+            "id": "perfumes"
+        },
+        "precio": 2665
+    },
+
+    {
+        "id": "hom",
+        "titulo": "Homen",
+        "imagen": "../img/img perfumes/homen.jpg",
+        "categoria": {
+            "nombre": "Perfumes",
+            "id": "perfumes"
+        },
+    " precio": 4800
+    },
+
+    {
+        "id": "hum",
+        "titulo": "Humor",
+        "imagen": "../img/img perfumes/humor.jpg",
+        "categoria": {
+            "nombre": "Perfumes",
+            "id": "perfumes"
+        },
+        "precio": 3260
+    },
+
+    {
+        "id": "kaiak",
+        "titulo": "Kaiak Natura",
+        "imagen": "../img/img perfumes/kaiak natura.jpg",
+        "categoria": {
+           " nombre": "Perfumes",
+            "id": "perfumes"
+        },
+        "precio": 2890
+    },
+
+    {
+        "id": "kriska",
+        "titulo": "Natura Kriska",
+        "imagen": "../img/img perfumes/natura kriska.jpg",
+        "categoria": {
+            "nombre": "Perfumes",
+            "id": "perfumes"
+        },
+        "precio": 5000
+    },
+
+    
+
+    {
+        "id": "corporal-ciruela",
+        "titulo": "Crema nutritiva",
+        "imagen": "../img/img cremas/Crema nutritiva corporal ciruela.jpg",
+        "categoria": {
+            "nombre": "Cremas",
+            "id": "cremas"
+        },
+        "precio": 3690
+    },
+
+    {
+        "id": "hidratante-avellana",
+        "titulo": "Hidratante de avellana",
+        "imagen": "../img/img cremas/Hidratante corporal avellana.jpg",
+        "categoria": {
+            "nombre": "Cremas",
+            "id": "cremas"
+        },
+        "precio": 3789
+    },
+
+    {
+        "id": "hidratante-limon ",
+        "titulo": "Hidratante de limon",
+        "imagen": "../img/img cremas/Hidratante corporal hojas de limon.jpg",
+        "categoria": {
+            "nombre": "Cremas",
+            "id": "cremas"
+        },
+        "precio": 3800
+    },
+
+    {
+        "id": "pulpa",
+        "titulo": "Pulpa hidratante",
+        "imagen": "../img/img cremas/Pulpa hidratante corporal tukuma.jpg",
+        "categoria": {
+            "nombre": "Cremas",
+           " id": "cremas"
+        },
+        "precio": 7560
+    },
+
+    
+
+    {
+        "id": "labial-hidratante",
+        "titulo": "Labial Hidratante",
+        "imagen": "../img/img labiales/LAbial cc hidratante.jpg",
+        "categoria": {
+           " nombre": "Labiales",
+            "id": "labiales"
+        },
+        "precio": 3200
+    },
+
+    {
+        "id": "gloss",
+        "titulo": "Labial Gloss",
+        "imagen": "../img/img labiales/Labial Gloss.jpg",
+        "categoria": {
+            "nombre": "Labiales",
+            "id": "labiales"
+        },
+        "precio": 5000
+    },
+
+    {
+        "id": "labial-matte",
+        "titulo": "Labial matte",
+        "imagen": "../img/img labiales/Labial matte intransferible.jpg",
+        "categoria": {
+            "nombre": "Labiales",
+            "id": "labiales"
+        },
+        "precio": 4500
+    },
+
+    {
+        "id": "serum",
+        "titulo": "Serum labial",
+        "imagen": "../img/img labiales/Serum labial.jpg",
+        "categoria": {
+            "nombre": "Labiales",
+            "id": "labiales"
+        },
+        "precio": 3200
+    }
+]
