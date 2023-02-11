@@ -107,7 +107,7 @@
         "imagen": "../img/img cremas/Pulpa hidratante corporal tukuma.jpg",
         "categoria": {
             "nombre": "Cremas",
-           " id": "cremas"
+            "id": "cremas"
         },
         "precio": 7560
     },
